@@ -4,6 +4,8 @@ import data from "./data.json";
 import Products from "./components/Products";
 import Filter from "./components/Filter";
 import Cart from "./components/Cart";
+import Navbar from "./components/Navbar/Navbar";
+import Footer from "./components/Footer/Footer";
 
 class App extends React.Component {
   constructor() {
@@ -84,10 +86,8 @@ class App extends React.Component {
   };
   render() {
     return (
-      <div className="grid-container">
-        <header>
-          <a href="/">React Shopping Cart</a>
-        </header>
+      <div>
+        <Navbar />
         <main>
           <div className="content">
             <div className="main">
@@ -112,7 +112,7 @@ class App extends React.Component {
             </div>
           </div>
         </main>
-        <footer>All right is reserved.</footer>
+        <Footer />
       </div>
     );
   }
