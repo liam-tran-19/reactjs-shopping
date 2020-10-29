@@ -27,19 +27,6 @@ const Footer = () => {
               </span>
             </div>
           </div>
-          <div className="instagram" data-aos="fade-left" data-aos-delay="200">
-            <h2>Instagram</h2>
-            <div className="flex-row">
-              <img src="./assets/instagram/thumb-card3.png" alt="insta1" />
-              <img src="./assets/instagram/thumb-card4.png" alt="insta2" />
-              <img src="./assets/instagram/thumb-card5.png" alt="insta3" />
-            </div>
-            <div className="flex-row">
-              <img src="./assets/instagram/thumb-card6.png" alt="insta4" />
-              <img src="./assets/instagram/thumb-card7.png" alt="insta5" />
-              <img src="./assets/instagram/thumb-card8.png" alt="insta6" />
-            </div>
-          </div>
           <div className="follow" data-aos="fade-left" data-aos-delay="200">
             <h2>Follow us</h2>
             <p>Let us be Social</p>
@@ -50,16 +37,11 @@ const Footer = () => {
               <i className="fab fa-youtube"></i>
             </div>
           </div>
-        </div>
-        <div className="rights flex-row">
-          <h4 className="text-gray">
-            Copyright ©2020 All rights reserved | made by Son Tran
-          </h4>
-        </div>
-        <div className="move-up">
-          <span>
-            <i className="fas fa-arrow-circle-up fa-2x"></i>
-          </span>
+          <div className="copyright">
+            <h4 className="text-gray">
+              Copyright ©2020 All rights reserved | made by Son Tran
+            </h4>
+          </div>
         </div>
       </footer>
     </div>

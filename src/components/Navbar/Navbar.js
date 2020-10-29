@@ -7,7 +7,7 @@ const Navbar = () => {
     <nav className="nav">
       <div className="nav-menu flex-row">
         <div className="nav-brand">
-          <a className="text-gray">Fitness Today</a>
+          <a className="text-gray">Shopping Today</a>
         </div>
         <div className="toggle-collapse">
           <div className="toggle-icons">
