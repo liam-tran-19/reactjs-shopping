@@ -5,6 +5,7 @@ footer.footer{
 }
 
 footer.footer .container{
+    width: 100%;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
 }
@@ -13,6 +14,10 @@ footer.footer .container > div{
     flex-grow: 1;
     flex-basis: 0;
     padding: 3rem .9rem;
+}
+
+.container .aboutus {
+    display: block;
 }
 
 footer.footer .container h2{
@@ -52,10 +57,11 @@ footer.footer .follow div i{
     padding: 0 .4rem;
 }
 
-.copyright {
+footer .copyright {
     text-align: center;
     width: 100%;
     color:var(--text-light);
+    display: block;
 }
 
 footer.footer .move-up{
